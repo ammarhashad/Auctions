@@ -1,0 +1,143 @@
+:root {
+  --primary-color: #17a2b8;
+  --dark-color: #343a40;
+  --light-color: #f4f4f4;
+  --danger-color: #dc3545;
+  --success-color: #28a745;
+}
+
+nav {
+  border-bottom: black 1px solid;
+  margin-top: 0px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+}
+#main-nav,
+#main-footer {
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.link {
+  color: #433936;
+}
+.link:hover {
+  text-decoration: none;
+  color: #00f;
+}
+
+#home-section,
+#product-section,
+#register-section {
+  padding-top: 150px;
+}
+
+#home-section .card-form {
+  opacity: 0.8;
+}
+
+#create-section .fas {
+  color: #008ed6;
+  background: #fff;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+#register-card {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.card-img-top {
+  max-width: 100%;
+  height: 280px;
+  object-fit: fill;
+}
+
+#product-img {
+  max-width: 100%;
+  height: 400px;
+  object-fit: fill;
+}
+.d-flex {
+  max-height: 15px;
+}
+
+.comment-section {
+  height: 200px;
+  overflow-y: auto;
+}
+
+#date {
+  margin-top: -15px;
+}
+
+@media only screen and (min-width: 768px) {
+  .dd {
+    margin-left: -115px;
+    width: 270px;
+  }
+}
+
+.alert {
+  width: 400px;
+  padding: 0.8rem;
+  margin: auto;
+  text-align: center;
+  opacity: 0.9;
+  background: var(--light-color);
+  color: #333;
+}
+
+.btn-primary,
+.bg-primary,
+.badge-primary,
+.alert-primary {
+  background: var(--primary-color);
+  color: #fff;
+}
+
+.btn-success,
+.bg-success,
+.badge-success,
+.alert-success {
+  background: var(--success-color);
+  color: #fff;
+}
+.btn-light,
+.bg-light,
+.badge-light,
+.alert-light {
+  background: var(--light-color);
+  color: #333;
+}
+
+.btn-dark,
+.bg-dark,
+.badge-dark,
+.alert-dark {
+  background: var(--dark-color);
+  color: #fff;
+}
+
+.btn-danger,
+.bg-danger,
+.badge-danger,
+.alert-danger {
+  background: var(--danger-color);
+  color: #fff;
+}
+
+@media only screen and (max-width: 600px) {
+  .alert {
+    width: 340px;
+    padding: 0.8rem;
+    margin: auto;
+    text-align: center;
+    opacity: 0.9;
+  }
+  .fa-star {
+    margin-top: 30px;
+    margin-right: 150px;
+  }
+}

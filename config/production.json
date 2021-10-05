@@ -1,0 +1,4 @@
+{
+  "mongoURI": "mongodb+srv://Ammar:01007265515aA@auctions.pqhtx.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",
+  "JsonSecret": "mysecret"
+}
